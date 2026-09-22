@@ -16,7 +16,12 @@
 </div>
 ## `01 // SOBRE MIM`
 
-<img align="right" width="250" src="https://gifdb.com/images/high/black-cat-walking-mochi-motion-3zglx0509tnymxqe.gif" alt="Animated black cat"/>
+<img
+  align="right"
+  width="250"
+  src="https://i.imgur.com/fi7eCd3.gif"
+  alt="Cute pixel black cat"
+/>
 
 Olá! Eu sou **Nicoly Saar**, tenho **19 anos** e sou estudante de **Ciência da Computação**, direcionando meus estudos para **Ciência de Dados**.
 
