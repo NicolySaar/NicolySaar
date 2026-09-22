@@ -1,0 +1,258 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+```
+<linearGradient id="background" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+  <stop stop-color="#050505"/>
+  <stop offset="0.55" stop-color="#0D0D0D"/>
+  <stop offset="1" stop-color="#160B18"/>
+</linearGradient>
+
+<linearGradient id="pinkGlow" x1="180" y1="0" x2="1050" y2="300" gradientUnits="userSpaceOnUse">
+  <stop stop-color="#FF69B4"/>
+  <stop offset="0.5" stop-color="#FF1493"/>
+  <stop offset="1" stop-color="#8A2BE2"/>
+</linearGradient>
+
+<linearGradient id="lineGradient" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+  <stop stop-color="#FF69B4" stop-opacity="0"/>
+  <stop offset="0.5" stop-color="#FF69B4"/>
+  <stop offset="1" stop-color="#8A2BE2" stop-opacity="0"/>
+</linearGradient>
+
+<filter id="glow">
+  <feGaussianBlur stdDeviation="5" result="blur"/>
+  <feMerge>
+    <feMergeNode in="blur"/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+
+<filter id="softGlow">
+  <feGaussianBlur stdDeviation="18"/>
+</filter>
+
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+  <path d="M40 0H0V40" stroke="#FF69B4" stroke-opacity="0.045" stroke-width="1"/>
+</pattern>
+```
+
+  </defs>
+
+  <!-- BACKGROUND -->
+
+  <rect width="1200" height="300" rx="18" fill="url(#background)"/>
+
+  <rect width="1200" height="300" rx="18" fill="url(#grid)"/>
+
+  <!-- AMBIENT GLOW -->
+
+<ellipse
+ cx="950"
+ cy="130"
+ rx="260"
+ ry="170"
+ fill="#8A2BE2"
+ opacity="0.08"
+ filter="url(#softGlow)"
+/>
+
+<ellipse
+ cx="250"
+ cy="180"
+ rx="240"
+ ry="140"
+ fill="#FF69B4"
+ opacity="0.06"
+ filter="url(#softGlow)"
+/>
+
+  <!-- DECORATIVE CIRCUIT LINES -->
+
+  <g stroke="url(#lineGradient)" stroke-width="1.5" opacity="0.8">
+
+```
+<path d="M40 70H180L210 40H330"/>
+<path d="M870 40H990L1020 70H1160"/>
+
+<path d="M40 235H150L180 205H290"/>
+<path d="M910 205H1020L1050 235H1160"/>
+```
+
+  </g>
+
+  <!-- CIRCUIT NODES -->
+
+  <g fill="#FF69B4" filter="url(#glow)">
+
+```
+<circle cx="180" cy="70" r="3"/>
+<circle cx="210" cy="40" r="3"/>
+<circle cx="330" cy="40" r="3"/>
+
+<circle cx="990" cy="40" r="3"/>
+<circle cx="1020" cy="70" r="3"/>
+
+<circle cx="150" cy="235" r="3"/>
+<circle cx="180" cy="205" r="3"/>
+
+<circle cx="1020" cy="205" r="3"/>
+<circle cx="1050" cy="235" r="3"/>
+```
+
+  </g>
+
+  <!-- TOP STATUS -->
+
+  <g font-family="monospace">
+
+```
+<text
+  x="50"
+  y="42"
+  fill="#FF69B4"
+  font-size="11"
+  letter-spacing="3"
+  opacity="0.85">
+  SYSTEM // ONLINE
+</text>
+
+<text
+  x="1150"
+  y="42"
+  text-anchor="end"
+  fill="#8A2BE2"
+  font-size="11"
+  letter-spacing="2"
+  opacity="0.85">
+  DATA_NODE_01
+</text>
+```
+
+  </g>
+
+  <!-- MAIN TITLE -->
+
+<text
+ x="600"
+ y="132"
+ text-anchor="middle"
+ font-family="Arial, Helvetica, sans-serif"
+ font-size="54"
+ font-weight="700"
+ letter-spacing="9"
+ fill="#FFFFFF">
+NICOLY SAAR </text>
+
+  <!-- PINK ACCENT -->
+
+<rect
+ x="390"
+ y="154"
+ width="420"
+ height="2"
+ rx="1"
+ fill="url(#pinkGlow)"
+ filter="url(#glow)"
+/>
+
+  <!-- SUBTITLE -->
+
+<text
+ x="600"
+ y="190"
+ text-anchor="middle"
+ font-family="monospace"
+ font-size="15"
+ letter-spacing="4"
+ fill="#FF69B4">
+DATA SCIENCE  //  PYTHON  //  AI </text>
+
+  <!-- TERMINAL LINE -->
+
+  <g font-family="monospace">
+
+```
+<text
+  x="600"
+  y="226"
+  text-anchor="middle"
+  font-size="12"
+  fill="#AFAFAF">
+  &gt; initializing_nicolysaar.exe
+</text>
+
+<circle
+  cx="745"
+  cy="222"
+  r="3"
+  fill="#FF69B4"
+  filter="url(#glow)"
+/>
+```
+
+  </g>
+
+  <!-- BOTTOM SYSTEM BAR -->
+
+<line
+ x1="120"
+ y1="260"
+ x2="1080"
+ y2="260"
+ stroke="url(#lineGradient)"
+ stroke-width="1"
+/>
+
+  <g font-family="monospace" font-size="9" fill="#777777">
+
+```
+<text x="120" y="280">
+  LEARN
+</text>
+
+<text x="220" y="280" fill="#FF69B4">
+  →
+</text>
+
+<text x="250" y="280">
+  BUILD
+</text>
+
+<text x="350" y="280" fill="#FF69B4">
+  →
+</text>
+
+<text x="380" y="280">
+  ANALYZE
+</text>
+
+<text x="510" y="280" fill="#FF69B4">
+  →
+</text>
+
+<text x="540" y="280">
+  IMPROVE
+</text>
+
+<text x="1080" y="280" text-anchor="end" fill="#8A2BE2">
+  v1.0
+</text>
+```
+
+  </g>
+
+  <!-- BORDER -->
+
+<rect
+ x="1"
+ y="1"
+ width="1198"
+ height="298"
+ rx="18"
+ stroke="#FF69B4"
+ stroke-opacity="0.18"
+/>
+
+</svg>
