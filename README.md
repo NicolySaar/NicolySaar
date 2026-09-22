@@ -103,7 +103,7 @@ class NicolySaar:
 │  [02] Data Analysis                                        │
 │  [03] SQL & Databases                                      │
 │  [04] Statistics & Mathematics                             │
-│  [05] Machine Learning                                    │
+│  [05] Machine Learning                                     │
 │  [06] Git & GitHub                                         │
 │  [07] Technical Portfolio                                  │
 │  [08] Artificial Intelligence                              │
