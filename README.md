@@ -16,12 +16,7 @@
 </div>
 ## `01 // SOBRE MIM`
 
-<img
-  align="right"
-  width="250"
-  src="https://i.imgur.com/fi7eCd3.gif"
-  alt="Cute pixel black cat"
-/>
+<img align="right" width="250" src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" alt="Decorative animation"/>
 
 Olá! Eu sou **Nicoly Saar**, tenho **19 anos** e sou estudante de **Ciência da Computação**, direcionando meus estudos para **Ciência de Dados**.
 
