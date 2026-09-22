@@ -1,3 +1,19 @@
+<div align="center">
+
+<img src="./assets/banner.svg" alt="Nicoly Saar — Data Science"/>
+
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=2800&pause=900&color=FF69B4&center=true&vCenter=true&width=750&lines=Initializing+NicolySaar.exe...;Welcome+to+my+digital+workspace.;Computer+Science+%7C+Data+Science;Python+%7C+SQL+%7C+Data+%26+AI;Learning+%E2%86%92+Building+%E2%86%92+Analyzing" alt="Typing Animation"/>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/DATA%20SCIENCE-0D0D0D?style=for-the-badge&logo=databricks&logoColor=FF69B4"/>
+<img src="https://img.shields.io/badge/PYTHON-0D0D0D?style=for-the-badge&logo=python&logoColor=FF69B4"/>
+<img src="https://img.shields.io/badge/SQL-0D0D0D?style=for-the-badge&logo=mysql&logoColor=FF69B4"/>
+<img src="https://img.shields.io/badge/GIT%20%26%20GITHUB-0D0D0D?style=for-the-badge&logo=github&logoColor=FF69B4"/>
+
+</div>
 ## `01 // SOBRE MIM`
 
 <img align="right" width="250" src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" alt="Decorative animation"/>
